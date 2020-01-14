@@ -28,7 +28,7 @@ namespace WebApplication3
 			});
 
 			services.ConfigureDS(Configuration);
-			services.AddMvc().ConfigurMVC().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+			services.AddMvc().ConfigureMVCForDS().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

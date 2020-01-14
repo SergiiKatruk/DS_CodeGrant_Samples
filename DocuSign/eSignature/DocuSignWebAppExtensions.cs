@@ -29,7 +29,7 @@ namespace DocuSign.eSignature
 			applicationBuilder.UseSession();
 		}
 
-		public static IMvcBuilder ConfigurMVC(this IMvcBuilder mvcBuilder) =>
+		public static IMvcBuilder ConfigureMVCForDS(this IMvcBuilder mvcBuilder) =>
 			mvcBuilder.AddMvcOptions(options => options.Filters.Add<LocalsFilter>());
 
 		public static void ConfigureDS(this IServiceCollection services, IConfiguration Configuration)
