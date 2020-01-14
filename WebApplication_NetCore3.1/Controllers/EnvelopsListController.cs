@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using DocuSign.eSign.Api;
+﻿using DocuSign.eSign.Api;
 using DocuSign.eSign.Client;
 using DocuSign.eSign.Model;
-using Microsoft.AspNetCore.Authentication;
+using DocuSign.eSignature;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication5.DocuSign.eSignature;
+using System;
 using static DocuSign.eSign.Api.EnvelopesApi;
 
 namespace WebApplication5.Controllers

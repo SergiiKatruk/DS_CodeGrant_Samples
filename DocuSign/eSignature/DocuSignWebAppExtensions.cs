@@ -249,7 +249,6 @@ namespace DocuSign.eSignature
 
 	public class RequestItemsService : IRequestItemsService
 	{
-		private readonly IHttpContextAccessor _httpContextAccessor;
 		private readonly IMemoryCache _cache;
 		private string _id;
 		private string _accessToken;

@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <DocuSignAuthType>AuthCodeGrant</DocuSignAuthType>
+    <AssemblyName>WebApplication_NetCore</AssemblyName>
+    <RootNamespace>WebApplication_NetCore</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
