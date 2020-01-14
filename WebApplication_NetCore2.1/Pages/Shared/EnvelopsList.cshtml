@@ -1,0 +1,11 @@
+﻿@page
+@model EnvelopsListModel
+
+<h2>Token</h2>
+<h3>ViewBag.EnvelopesInformation.ContinuationToken</h3>
+<h2>EnvelopsList:</h2>
+@foreach (var t in ViewBag.EnvelopesInformation.Envelopes)
+{
+    <br>
+    <h3>ID: @t.EnvelopeId</h3>
+}

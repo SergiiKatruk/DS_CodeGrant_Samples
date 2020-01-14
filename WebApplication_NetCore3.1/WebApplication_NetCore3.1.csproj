@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DocuSignAuthType>AuthCodeGrant</DocuSignAuthType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\DocuSign\eSignature\DocuSignWebAppExtensions.cs" Link="DocuSign\eSignature\DocuSignWebAppExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocuSign.eSign.dll" Version="4.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DocuSign\eSignature\" />
+  </ItemGroup>
+
+
+
+</Project>
